@@ -4,7 +4,7 @@
     "update.enableWindowsBackgroundUpdates": false,
     "update.mode": "none",
     "update.showReleaseNotes": false,
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.activityBar.visible": false,
     "C_Cpp.updateChannel": "Insiders",
     "editor.minimap.enabled": false,
