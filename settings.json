@@ -9,5 +9,6 @@
     "C_Cpp.updateChannel": "Insiders",
     "editor.minimap.enabled": false,
     "window.openFilesInNewWindow": "on",
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13
 }
