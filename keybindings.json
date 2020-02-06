@@ -15,5 +15,17 @@
     {
         "key": "shift+cmd+n",
         "command": "-workbench.action.newWindow"
-    }
+    },
+    { 
+        "key": "alt+b",
+        "command": "cursorWordStartLeft"
+    },
+    { 
+        "key": "alt+f",
+        "command": "cursorWordEndRight"
+    },
+    {
+        "key": "alt+d",
+        "command": "deleteWordRight",
+    },
 ]
