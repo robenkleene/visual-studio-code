@@ -5,7 +5,7 @@
     "update.mode": "none",
     "update.showReleaseNotes": false,
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "C_Cpp.updateChannel": "Insiders",
     "editor.minimap.enabled": false,
     "window.openFilesInNewWindow": "on",
