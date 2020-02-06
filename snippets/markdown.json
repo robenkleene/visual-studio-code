@@ -1,0 +1,7 @@
+{
+	"Image Link": {
+		"prefix": ["imghref"],
+		"body": ["[![](${1:path/to/url})]($1)"],
+		"description": "A link to an image."
+	}
+}
