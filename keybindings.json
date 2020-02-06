@@ -26,6 +26,6 @@
     },
     {
         "key": "alt+d",
-        "command": "deleteWordRight",
-    },
+        "command": "deleteWordRight"
+    }
 ]
