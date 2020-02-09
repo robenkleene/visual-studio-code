@@ -13,5 +13,8 @@
     "editor.fontSize": 13,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "[markdown]": {
+      "editor.occurrencesHighlight": false
+    }
 }
