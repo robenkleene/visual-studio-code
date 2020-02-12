@@ -16,5 +16,6 @@
     "[markdown]": {
       "editor.occurrencesHighlight": false
     },
-    "search.useGlobalIgnoreFiles": true
+    "search.useGlobalIgnoreFiles": true,
+    "debug.onTaskErrors": "showErrors"
 }
