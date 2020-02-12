@@ -15,5 +15,6 @@
     "explorer.confirmDelete": false,
     "[markdown]": {
       "editor.occurrencesHighlight": false
-    }
+    },
+    "search.useGlobalIgnoreFiles": true
 }
