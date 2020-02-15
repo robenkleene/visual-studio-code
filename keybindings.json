@@ -27,5 +27,9 @@
     {
         "key": "alt+d",
         "command": "deleteWordRight"
+    },
+    {
+        "key": "alt+r",
+        "command": "revealFileInOS"
     }
 ]
