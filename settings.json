@@ -4,12 +4,18 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "punctuation.definition.heading.markdown",
+        "scope": "punctuation.definition.heading.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, markup.underline.link.markdown",
         "settings": {
-          "foreground": "#444444"
+          "foreground": "#777"
         }
       },
       {
+        "scope": "punctuation.definition.list.begin.markdown",
+        "settings": {
+          "foreground": "#ABB2BF"
+        }
+      },
+    {
         "scope": "entity.name.section.markdown",
         "settings": {
           "foreground": "#ffffff"
