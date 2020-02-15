@@ -1,21 +1,37 @@
 {
-    "workbench.enableExperiments": false,
-    "workbench.settings.enableNaturalLanguageSearch": false,
-    "update.enableWindowsBackgroundUpdates": false,
-    "update.showReleaseNotes": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.activityBar.visible": true,
-    "C_Cpp.updateChannel": "Insiders",
-    "editor.minimap.enabled": false,
-    "window.openFilesInNewWindow": "on",
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 13,
-    "workbench.startupEditor": "newUntitledFile",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "[markdown]": {
-      "editor.occurrencesHighlight": false
-    },
-    "search.useGlobalIgnoreFiles": true,
-    "debug.onTaskErrors": "showErrors"
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "punctuation.definition.heading.markdown",
+        "settings": {
+          "foreground": "#444444"
+        }
+      },
+      {
+        "scope": "entity.name.section.markdown",
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      }
+    ]
+  },
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.showReleaseNotes": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.activityBar.visible": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.minimap.enabled": false,
+  "window.openFilesInNewWindow": "on",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[markdown]": {
+    "editor.occurrencesHighlight": false
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "debug.onTaskErrors": "showErrors"
 }
