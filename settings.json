@@ -1,6 +1,9 @@
 {
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#aabbcc"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -15,10 +18,16 @@
           "foreground": "#ABB2BF"
         }
       },
-    {
+      {
+        "scope": "markup.raw.block.markdown, markup.inline.raw.string.markdown",
+        "settings": {
+          "foreground": "#888"
+        }
+      },
+      {
         "scope": "entity.name.section.markdown",
         "settings": {
-          "foreground": "#ffffff"
+          "foreground": "#fff"
         }
       }
     ]
