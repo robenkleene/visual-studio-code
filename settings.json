@@ -47,6 +47,12 @@
   "[markdown]": {
     "editor.occurrencesHighlight": false
   },
+  "spellright.spellContextByClass": {
+    "markdown": "body comments strings"
+  },
+  "spellright.ignoreRegExpsByClass": {
+    "markdown": [ "/\t.*/g" ]
+  },
   "search.useGlobalIgnoreFiles": true,
   "debug.onTaskErrors": "showErrors"
 }
