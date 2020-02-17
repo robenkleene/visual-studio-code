@@ -54,5 +54,6 @@
     "markdown": [ "/\t.*/g" ]
   },
   "search.useGlobalIgnoreFiles": true,
-  "debug.onTaskErrors": "showErrors"
+  "debug.onTaskErrors": "showErrors",
+  "editor.renderIndentGuides": false
 }
