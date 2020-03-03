@@ -77,5 +77,9 @@
     "editor.defaultFormatter": "xaver.clang-format"
   },
   "c-cpp-flylint.cppcheck.enable": false,
-  "c-cpp-flylint.flexelint.enable": false
+  "c-cpp-flylint.flexelint.enable": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabCompletion": "onlySnippets"
 }
