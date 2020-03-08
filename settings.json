@@ -81,5 +81,8 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.tabCompletion": "onlySnippets"
+  "editor.tabCompletion": "onlySnippets",
+  "telemetry.enableTelemetry": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "telemetry.enableCrashReporter": false
 }
