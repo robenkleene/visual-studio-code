@@ -84,5 +84,6 @@
   "editor.tabCompletion": "onlySnippets",
   "telemetry.enableTelemetry": false,
   "gitlens.advanced.telemetry.enabled": false,
-  "telemetry.enableCrashReporter": false
+  "telemetry.enableCrashReporter": false,
+  "editor.cursorBlinking": "phase"
 }
