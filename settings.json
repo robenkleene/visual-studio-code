@@ -19,7 +19,7 @@
         }
       },
       {
-        "scope": "markup.raw.block.markdown, markup.inline.raw.string.markdown",
+        "scope": "markup.raw.block.markdown, markup.inline.raw.string.markdown, markup.quote.markdown",
         "settings": {
           "foreground": "#888"
         }
@@ -51,7 +51,7 @@
     "markdown": "body comments strings"
   },
   "spellright.ignoreRegExpsByClass": {
-    "markdown": [ "/\t.*/g" ]
+    "markdown": ["/\t.*/g"]
   },
   "search.useGlobalIgnoreFiles": true,
   "debug.onTaskErrors": "showErrors",
