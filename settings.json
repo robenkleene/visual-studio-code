@@ -85,5 +85,6 @@
   "telemetry.enableTelemetry": false,
   "gitlens.advanced.telemetry.enabled": false,
   "telemetry.enableCrashReporter": false,
-  "editor.cursorBlinking": "phase"
+  "editor.cursorBlinking": "phase",
+  "workbench.editor.closeOnFileDelete": true
 }
