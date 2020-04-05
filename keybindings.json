@@ -31,5 +31,9 @@
     {
         "key": "alt+r",
         "command": "revealFileInOS"
+    },
+    {
+        "key": "alt+l",
+        "command": "editor.action.openLink"
     }
 ]
