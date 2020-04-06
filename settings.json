@@ -32,7 +32,6 @@
       }
     ]
   },
-  "update.enableWindowsBackgroundUpdates": false,
   "update.showReleaseNotes": false,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.activityBar.visible": true,
@@ -68,14 +67,12 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.hovers.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.codeLens.enabled": false,
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
+  "bracket-pair-colorizer-2.excludedLanguages": [
+    "markdown"
+  ],
   "c-cpp-flylint.cppcheck.enable": false,
   "c-cpp-flylint.flexelint.enable": false,
   "[jsonc]": {
@@ -83,9 +80,10 @@
   },
   "editor.tabCompletion": "onlySnippets",
   "telemetry.enableTelemetry": false,
-  "gitlens.advanced.telemetry.enabled": false,
   "telemetry.enableCrashReporter": false,
   "editor.cursorBlinking": "phase",
   "workbench.editor.closeOnFileDelete": true,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": false
 }
