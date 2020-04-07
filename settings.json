@@ -86,5 +86,6 @@
   "extensions.ignoreRecommendations": true,
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 0
 }
