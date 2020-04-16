@@ -1,7 +1,12 @@
 {
 	"Image Link": {
-		"prefix": ["imghref"],
-		"body": ["[![](${1:path/to/url})]($1)"],
+		"prefix": ["imga"],
+		"body": ["[![${1:Title}](${2:path/to/image})]($2)"],
+		"description": "A link to an image"
+  },
+  "Image": {
+		"prefix": ["img"],
+		"body": ["![${1:Title}](${2:path/to/img})"],
 		"description": "A link to an image"
 	}
 }
