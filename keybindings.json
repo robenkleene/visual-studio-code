@@ -1,21 +1,5 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "cmd+n",
-        "command": "workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "cmd+n",
-        "command": "-workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "shift+cmd+n",
-        "command": "workbench.action.newWindow"
-    },
-    {
-        "key": "shift+cmd+n",
-        "command": "-workbench.action.newWindow"
-    },
     { 
         "key": "alt+b",
         "command": "cursorWordStartLeft"
@@ -35,5 +19,9 @@
     {
         "key": "alt+l",
         "command": "editor.action.openLink"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "actions.find"
     }
 ]
