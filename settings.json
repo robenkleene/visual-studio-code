@@ -7,7 +7,7 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "punctuation.definition.heading.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, markup.underline.link.markdown",
+        "scope": "punctuation.definition.heading.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, markup.underline.link.markdown, punctuation.definition.bold.markdown, markup.underline.link.image.markdown, punctuation.definition.italic.markdown",
         "settings": {
           "foreground": "#777"
         }
@@ -25,7 +25,7 @@
         }
       },
       {
-        "scope": "entity.name.section.markdown",
+        "scope": "entity.name.section.markdown, markup.italic.markdown, markup.bold.markdown",
         "settings": {
           "foreground": "#fff"
         }
