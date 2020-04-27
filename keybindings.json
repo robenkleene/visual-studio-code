@@ -23,5 +23,15 @@
     {
         "key": "ctrl+s",
         "command": "actions.find"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "explorer.newFile",
+        "when": "!inputFocus && filesExplorerFocus"
+    }
+    {
+        "key": "shift+cmd+n",
+        "command": "explorer.newFolder",
+        "when": "!inputFocus && filesExplorerFocus"
     }
 ]
