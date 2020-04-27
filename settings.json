@@ -89,5 +89,6 @@
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
   "breadcrumbs.enabled": false,
   "window.zoomLevel": 0,
-  "files.defaultLanguage": "markdown"
+  "files.defaultLanguage": "markdown",
+  "editor.occurrencesHighlight": false
 }
