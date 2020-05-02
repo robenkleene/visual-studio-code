@@ -21,6 +21,10 @@
         "command": "editor.action.openLink"
     },
     {
+        "key": "alt+t",
+        "command": "workbench.action.terminal.openNativeConsole"
+    },
+    {
         "key": "ctrl+s",
         "command": "actions.find"
     },
