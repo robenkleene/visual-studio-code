@@ -37,7 +37,6 @@
   "workbench.activityBar.visible": true,
   "C_Cpp.updateChannel": "Insiders",
   "editor.minimap.enabled": false,
-  "window.openFilesInNewWindow": "on",
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "workbench.startupEditor": "newUntitledFile",
@@ -91,5 +90,6 @@
   "window.zoomLevel": 0,
   "files.defaultLanguage": "markdown",
   "editor.occurrencesHighlight": false,
-  "editor.showFoldingControls": "always"
+  "editor.showFoldingControls": "always",
+  "window.openFilesInNewWindow": "default"
 }
