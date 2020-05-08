@@ -13,7 +13,7 @@
         }
       },
       {
-        "scope": "punctuation.definition.list.begin.markdown",
+        "scope": "punctuation.definition.list.begin.markdown, markup.list, text",
         "settings": {
           "foreground": "#ABB2BF"
         }
