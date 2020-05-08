@@ -33,7 +33,7 @@
     ]
   },
   "update.showReleaseNotes": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.activityBar.visible": true,
   "C_Cpp.updateChannel": "Insiders",
   "editor.minimap.enabled": false,
