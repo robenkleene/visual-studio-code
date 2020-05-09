@@ -42,10 +42,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "[markdown]": {
-    "editor.occurrencesHighlight": false,
-    "editor.selectionHighlight": false
-  },
   "spellright.spellContextByClass": {
     "markdown": "body comments strings"
   },
