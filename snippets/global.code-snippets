@@ -32,5 +32,15 @@
     "prefix": "sft",
     "body": ["⇧"],
     "description": "⇧"
+  },
+  "kso": {
+    "prefix": "kso",
+    "body": ["⌤↓↑←→⎋⌦⌫↩⇥⇤␣"],
+    "description": "Other keyboard shortcut symbols"
+  },
+  "kss": {
+    "prefix": "kss",
+    "body": ["⇧⌃⌥⌘"],
+    "description": "Keyboard shortcut symbols"
   }
 }
