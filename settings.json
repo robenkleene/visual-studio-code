@@ -87,5 +87,6 @@
   "files.defaultLanguage": "markdown",
   "editor.occurrencesHighlight": false,
   "editor.showFoldingControls": "always",
-  "window.openFilesInNewWindow": "default"
+  "window.openFilesInNewWindow": "default",
+  "explorer.compactFolders": false
 }
