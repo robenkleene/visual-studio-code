@@ -32,7 +32,12 @@
         "key": "ctrl+cmd+n",
         "command": "explorer.newFile",
         "when": "!inputFocus && filesExplorerFocus"
-    }
+    },
+    {
+        "key": "cmd+k cmd+0",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "!inputFocus && filesExplorerFocus"
+    },
     {
         "key": "shift+cmd+n",
         "command": "explorer.newFolder",
