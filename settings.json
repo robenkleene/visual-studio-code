@@ -88,5 +88,6 @@
   "editor.occurrencesHighlight": false,
   "editor.showFoldingControls": "always",
   "window.openFilesInNewWindow": "default",
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "editor.find.autoFindInSelection": "multiline"
 }
