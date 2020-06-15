@@ -42,5 +42,19 @@
         "key": "shift+cmd+n",
         "command": "explorer.newFolder",
         "when": "!inputFocus && filesExplorerFocus"
+    },
+    {
+        "key": "alt+o",
+        "command": "-C_Cpp.SwitchHeaderSource",
+        "when": "editorTextFocus && editorLangId == 'c'"
+    },
+    {
+        "key": "alt+o",
+        "command": "-C_Cpp.SwitchHeaderSource",
+        "when": "editorTextFocus && editorLangId == 'cpp'"
+    },
+    {
+        "key": "alt+o alt+o",
+        "command": "outline.focus"
     }
 ]
