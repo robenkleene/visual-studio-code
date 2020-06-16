@@ -18,7 +18,8 @@
     },
     {
         "key": "alt+l",
-        "command": "editor.action.openLink"
+        "command": "editor.action.openLink",
+        "when": "!editorHasSelection"
     },
     {
         "key": "alt+t",
