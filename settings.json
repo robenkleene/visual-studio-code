@@ -89,5 +89,6 @@
   "editor.showFoldingControls": "always",
   "window.openFilesInNewWindow": "default",
   "explorer.compactFolders": false,
-  "editor.find.autoFindInSelection": "multiline"
+  "editor.find.autoFindInSelection": "multiline",
+  "gitlens.currentLine.enabled": false
 }
