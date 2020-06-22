@@ -57,5 +57,21 @@
     {
         "key": "alt+o alt+l",
         "command": "outline.focus"
+    },
+    {
+        "key": "'",
+        "command": "editor.action.insertSnippet",
+        "when": "editorHasSelection || editorHasMultipleSelections",
+        "args": {
+            "snippet": "'${TM_SELECTED_TEXT}'"
+        }
+    },
+    {
+        "key": "shift+'",
+        "command": "editor.action.insertSnippet",
+        "when": "editorHasSelection || editorHasMultipleSelections",
+        "args": {
+            "snippet": "\"${TM_SELECTED_TEXT}\""
+        }
     }
 ]
