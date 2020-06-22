@@ -90,5 +90,8 @@
   "window.openFilesInNewWindow": "default",
   "explorer.compactFolders": false,
   "editor.find.autoFindInSelection": "multiline",
-  "gitlens.currentLine.enabled": false
+  "gitlens.currentLine.enabled": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false
 }
