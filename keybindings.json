@@ -55,7 +55,7 @@
         "when": "editorTextFocus && editorLangId == 'cpp'"
     },
     {
-        "key": "alt+o alt+l",
+        "key": "ctrl+c l",
         "command": "outline.focus"
     },
     {
