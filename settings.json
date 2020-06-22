@@ -93,5 +93,6 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.advanced.telemetry.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false
+  "gitlens.codeLens.recentChange.enabled": false,
+  "window.newWindowDimensions": "inherit"
 }
