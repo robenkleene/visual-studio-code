@@ -73,5 +73,13 @@
         "args": {
             "snippet": "\"${TM_SELECTED_TEXT}\""
         }
-    }
+    },
+    {
+      "key": "`",
+      "command": "editor.action.insertSnippet",
+      "when": "editorHasSelection || editorHasMultipleSelections",
+      "args": {
+          "snippet": "`${TM_SELECTED_TEXT}`"
+      }
+  }
 ]
