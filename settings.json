@@ -94,5 +94,6 @@
   "gitlens.advanced.telemetry.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
-  "window.newWindowDimensions": "inherit"
+  "window.newWindowDimensions": "inherit",
+  "explorer.sortOrder": "mixed"
 }
