@@ -2,7 +2,11 @@
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.colorCustomizations": {
-    "editor.foreground": "#aabbcc"
+    "editor.foreground": "#aabbcc",
+    "editor.selectionBackground": "#284667",
+    "editor.selectionHighlightBackground": "#444",
+    "editor.findMatchBackground": "#284667",
+    "editor.findMatchHighlightBackground": "#444"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -66,9 +70,7 @@
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "bracket-pair-colorizer-2.excludedLanguages": [
-    "markdown"
-  ],
+  "bracket-pair-colorizer-2.excludedLanguages": ["markdown"],
   "c-cpp-flylint.cppcheck.enable": false,
   "c-cpp-flylint.flexelint.enable": false,
   "[jsonc]": {
