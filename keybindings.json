@@ -79,6 +79,10 @@
       "command": "editor.action.toggleWordWrap"
     },
     {
+      "key": "alt+x",
+      "command": "workbench.action.showCommands"
+    },
+    {
       "key": "`",
       "command": "editor.action.insertSnippet",
       "when": "editorHasSelection || editorHasMultipleSelections",
