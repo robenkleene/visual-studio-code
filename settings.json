@@ -97,5 +97,10 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "window.newWindowDimensions": "inherit",
-  "explorer.sortOrder": "mixed"
+  "explorer.sortOrder": "mixed",
+  "markdownlint.config": {
+    "default": true,
+    "MD007": { "indent": 4 },
+    "MD013": false
+  }
 }
