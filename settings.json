@@ -105,5 +105,6 @@
     "MD013": false,
     "MD041": false,
     "MD047": false
-  }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
