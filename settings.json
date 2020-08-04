@@ -64,6 +64,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -105,6 +108,16 @@
     "MD013": false,
     "MD041": false,
     "MD047": false
+  },
+  "prettier.config": {
+    "overrides": [
+      {
+        "files": "*.md",
+        "options": {
+          "tabWidth": 4
+        }
+      }
+    ]
   },
   "javascript.updateImportsOnFileMove.enabled": "never"
 }
