@@ -65,7 +65,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoIndent": "none"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
