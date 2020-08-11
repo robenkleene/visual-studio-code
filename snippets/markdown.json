@@ -29,6 +29,41 @@
     "body": ["⇧"],
     "description": "⇧"
   },
+  "aarr": {
+    "prefix": "aarr",
+    "body": "↓↑←→",
+    "description": "Arrows"
+  },
+  "uarr": {
+    "prefix": "uarr",
+    "body": "↑",
+    "description": "Arrows"
+  },
+  "larr": {
+    "prefix": "larr",
+    "body": "←",
+    "description": "Arrows"
+  },
+  "rarr": {
+    "prefix": "rarr",
+    "body": "→",
+    "description": "Arrows"
+  },
+  "darr": {
+    "prefix": "darr",
+    "body": "↓",
+    "description": "Arrows"
+  },
+  "ent": {
+    "prefix": "ent",
+    "body": "↩",
+    "description": "Enter Key Symbol"
+  },
+  "spc": {
+    "prefix": "spc",
+    "body": "␣",
+    "description": "Space Key Symbol"
+  },
   "kso": {
     "prefix": "kso",
     "body": ["⌤↓↑←→⎋⌦⌫↩⇥⇤␣"],

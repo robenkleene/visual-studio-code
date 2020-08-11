@@ -1,0 +1,12 @@
+{
+  "template": {
+    "prefix": "template",
+    "body": "#!/usr/bin/env python3\n\n\"\"\"This module prints 'Hello World'.\"\"\"\n\ndef main():\n    \"\"\"main\"\"\"\n    $0\n\nif __name__ == \"__main__\":\n    main()",
+    "description": "Template"
+  },
+  "printv": {
+    "prefix": "printv",
+    "body": "print(\"${1:Variable} =\", $1)",
+    "description": "Print a variable"
+  }
+}
