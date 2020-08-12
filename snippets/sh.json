@@ -119,6 +119,16 @@
     "body": "\"$${1:1}\" = \"${2:string}\"",
     "description": "True if variable matches string"
   },
+  "testmac": {
+    "prefix": "testmac",
+    "body": "\"$(uname)\" = \"Darwin\"",
+    "description": "True if Mac"
+  },
+  "testlinux": {
+    "prefix": "testlinux",
+    "body": "\"$(uname)\" = \"Linux\"",
+    "description": "True if Linux"
+  },
   "1while": {
     "prefix": "1while",
     "body": "while read i; do { ${0:echo $i} } done",
