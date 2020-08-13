@@ -83,6 +83,22 @@
       "command": "workbench.action.showCommands"
     },
     {
+      "key": "alt+[",
+      "command": "spaceBlockJumper.moveUp"
+    },
+    {
+      "key": "alt+]",
+      "command": "spaceBlockJumper.moveDown"
+    },
+    {
+      "key": "alt+shift+[",
+      "command": "spaceBlockJumper.selectUp"
+    },
+    {
+      "key": "alt+shift+]",
+      "command": "spaceBlockJumper.selectDown"
+    },
+    {
       "key": "`",
       "command": "editor.action.insertSnippet",
       "when": "editorHasSelection || editorHasMultipleSelections",
