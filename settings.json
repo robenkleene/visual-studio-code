@@ -119,5 +119,12 @@
       }
     ]
   },
+  "write-good.write-good-config": {
+    "so": false,
+    "adverb": false,
+    "tooWordy": false,
+    "passive": false,
+    "weasel": false
+  },
   "javascript.updateImportsOnFileMove.enabled": "never"
 }
