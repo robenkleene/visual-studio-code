@@ -127,5 +127,6 @@
     "weasel": false
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "markdown-preview-enhanced.previewTheme": "one-dark.css"
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "markdown.extension.list.indentationSize": "inherit"
 }
