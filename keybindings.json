@@ -99,6 +99,14 @@
       "command": "spaceBlockJumper.selectDown"
     },
     {
+      "key": "cmd+k v",
+      "command": "-markdown.showPreviewToSide"
+    },
+    {
+      "key": "cmd+k v",
+      "command": "-markdown.extension.togglePreviewToSide"
+    },
+    {
       "key": "`",
       "command": "editor.action.insertSnippet",
       "when": "editorHasSelection || editorHasMultipleSelections",

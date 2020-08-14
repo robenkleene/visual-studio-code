@@ -126,5 +126,6 @@
     "passive": false,
     "weasel": false
   },
-  "javascript.updateImportsOnFileMove.enabled": "never"
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "markdown-preview-enhanced.previewTheme": "one-dark.css"
 }
