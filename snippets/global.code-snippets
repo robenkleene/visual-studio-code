@@ -33,6 +33,11 @@
     "body": ["⇧"],
     "description": "⇧"
   },
+  "esc": {
+    "prefix": "esc",
+    "body": ["⎋"],
+    "description": "⎋"
+  },
   "aarr": {
     "prefix": "aarr",
     "body": "↓↑←→",
