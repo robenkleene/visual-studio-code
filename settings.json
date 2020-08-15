@@ -127,12 +127,15 @@
     "Airtable",
     "Figma",
     "Jupyter",
+    "Photoshop",
     "Stackoverflow",
     "Ultrabeat",
     "artboard",
     "icosphere",
+    "keyframes",
     "minimap",
-    "numpad"
+    "numpad",
+    "playhead"
   ],
   "cSpell.spellCheckDelayMs": 500
 }
