@@ -46,12 +46,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "spellright.spellContextByClass": {
-    "markdown": "body comments strings"
-  },
-  "spellright.ignoreRegExpsByClass": {
-    "markdown": ["/\t.*/g"]
-  },
   "search.useGlobalIgnoreFiles": true,
   "debug.onTaskErrors": "showErrors",
   "editor.renderIndentGuides": false,
@@ -128,5 +122,16 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
   "markdown-preview-enhanced.previewTheme": "one-dark.css",
-  "markdown.extension.list.indentationSize": "inherit"
+  "markdown.extension.list.indentationSize": "inherit",
+  "cSpell.userWords": [
+    "Jupyter",
+    "icosphere",
+    "minimap",
+    "Ultrabeat",
+    "artboard",
+    "Figma",
+    "Airtable",
+    "Stackoverflow",
+    "Jupyter"
+  ]
 }
