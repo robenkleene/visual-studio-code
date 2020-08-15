@@ -124,15 +124,15 @@
   "markdown-preview-enhanced.previewTheme": "one-dark.css",
   "markdown.extension.list.indentationSize": "inherit",
   "cSpell.userWords": [
+    "Airtable",
+    "Figma",
     "Jupyter",
-    "icosphere",
-    "minimap",
+    "Stackoverflow",
     "Ultrabeat",
     "artboard",
-    "Figma",
-    "Airtable",
-    "Stackoverflow",
-    "Jupyter"
+    "icosphere",
+    "minimap",
+    "numpad"
   ],
-  "cSpell.spellCheckDelayMs": 1000
+  "cSpell.spellCheckDelayMs": 500
 }
