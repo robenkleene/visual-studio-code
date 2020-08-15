@@ -133,5 +133,6 @@
     "Airtable",
     "Stackoverflow",
     "Jupyter"
-  ]
+  ],
+  "cSpell.spellCheckDelayMs": 1000
 }
