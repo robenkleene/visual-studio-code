@@ -103,7 +103,7 @@
       "command": "-markdown.showPreviewToSide"
     },
     {
-      "key": "cmd+k shift+v",
+      "key": "cmd+k cmd+v",
       "command": "markdown-preview-enhanced.openPreviewToTheSide"
     },
     {
