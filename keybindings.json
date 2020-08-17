@@ -103,8 +103,8 @@
       "command": "-markdown.showPreviewToSide"
     },
     {
-      "key": "cmd+k v",
-      "command": "-markdown.extension.togglePreviewToSide"
+      "key": "cmd+k shift+v",
+      "command": "markdown-preview-enhanced.openPreviewToTheSide"
     },
     {
       "key": "cmd+alt+n",
@@ -117,5 +117,5 @@
       "args": {
           "snippet": "`${TM_SELECTED_TEXT}`"
       }
-  }
+    }
 ]
