@@ -126,12 +126,14 @@
   "cSpell.userWords": [
     "Airtable",
     "Bézier",
+    "Eevee",
     "Figma",
     "Jupyter",
     "Photoshop",
     "Stackoverflow",
     "Ultrabeat",
     "artboard",
+    "denoise",
     "denoiser",
     "denoising",
     "icosphere",
@@ -140,5 +142,8 @@
     "numpad",
     "playhead"
   ],
-  "cSpell.spellCheckDelayMs": 500
+  "cSpell.spellCheckDelayMs": 500,
+  "cSpell.ignoreRegExpList": [
+    "/\\b[A-Z]+\\b/"
+  ]
 }
