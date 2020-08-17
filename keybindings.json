@@ -107,6 +107,10 @@
       "command": "-markdown.extension.togglePreviewToSide"
     },
     {
+      "key": "cmd+alt+n",
+      "command": "workbench.action.newWindow"
+    },
+    {
       "key": "`",
       "command": "editor.action.insertSnippet",
       "when": "editorHasSelection || editorHasMultipleSelections",
