@@ -147,7 +147,8 @@
     "keyframes",
     "minimap",
     "numpad",
-    "playhead"
+    "playhead",
+    "rasterization"
   ],
   "cSpell.spellCheckDelayMs": 500,
   "cSpell.ignoreRegExpList": [
