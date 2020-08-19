@@ -103,6 +103,10 @@
       "command": "-markdown.showPreviewToSide"
     },
     {
+      "key": "cmd+b",
+      "command": "-markdown.extension.editing.toggleBold"
+    },
+    {
       "key": "cmd+k cmd+v",
       "command": "markdown-preview-enhanced.openPreviewToTheSide"
     },
