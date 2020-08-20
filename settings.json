@@ -149,6 +149,7 @@
     "numpad",
     "playhead",
     "rasterization",
+    "sidechain",
     "uncheck"
   ],
   "cSpell.spellCheckDelayMs": 500,
