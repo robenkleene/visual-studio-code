@@ -148,7 +148,8 @@
     "minimap",
     "numpad",
     "playhead",
-    "rasterization"
+    "rasterization",
+    "uncheck"
   ],
   "cSpell.spellCheckDelayMs": 500,
   "cSpell.ignoreRegExpList": [
