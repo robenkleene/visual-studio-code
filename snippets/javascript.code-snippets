@@ -13,11 +13,13 @@
     "description": "Log variable"
   },
   "template": {
+    "scope": "javascript,typescript",
     "prefix": "template",
     "body": "#!/usr/bin/env node\n\n$0",
     "description": "Template"
   },
   "debugv": {
+    "scope": "javascript,typescript",
     "prefix": "debugv",
     "body": "debug(\"${1:document} \" + $1);",
     "description": "Debug variable"
