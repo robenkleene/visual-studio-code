@@ -6,7 +6,8 @@
     "editor.selectionBackground": "#284667",
     "editor.selectionHighlightBackground": "#444",
     "editor.findMatchBackground": "#284667",
-    "editor.findMatchHighlightBackground": "#444"
+    "editor.findMatchHighlightBackground": "#444",
+    "sideBar.foreground": "#888"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -157,8 +158,6 @@
     "uncheck"
   ],
   "cSpell.spellCheckDelayMs": 500,
-  "cSpell.ignoreRegExpList": [
-    "/\\b[A-Z]+\\b/"
-  ],
+  "cSpell.ignoreRegExpList": ["/\\b[A-Z]+\\b/"],
   "workbench.iconTheme": "vscode-icons"
 }
