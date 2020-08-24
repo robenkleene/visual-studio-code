@@ -123,7 +123,7 @@
     "weasel": false
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+  "markdown-preview-enhanced.previewTheme": "atom-material.css",
   "markdown.extension.list.indentationSize": "inherit",
   "cSpell.userWords": [
     "Airtable",
