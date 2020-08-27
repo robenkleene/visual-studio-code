@@ -1,0 +1,16 @@
+{
+  "Launch JSON Node": {
+    "prefix": "launchnode",
+    "body": [
+      "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n    {\n      \"name\": \"Launch via npm\",\n      \"type\": \"node\",\n      \"request\": \"launch\",\n      \"cwd\": \"\\${workspaceFolder}\",\n      \"runtimeExecutable\": \"npm\",\n      \"runtimeArgs\": [\"run-script\", \"start\"]\n    }\n  ]\n}\n"
+    ],
+    "description": "Launch JSON for Node"
+  },
+  "Launch JSON C": {
+    "prefix": "launchc",
+    "body": [
+      "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n      {\n          \"type\": \"lldb\",\n          \"request\": \"launch\",\n          \"name\": \"Debug\",\n          \"program\": \"\\${workspaceFolder}/a.out\",\n          \"args\": [],\n          \"cwd\": \"\\${workspaceFolder}\"\n      }\n  ]\n}"
+    ],
+    "description": "Launch JSON for C"
+  }
+}
