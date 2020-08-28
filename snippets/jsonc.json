@@ -19,5 +19,12 @@
       "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n      {\n          \"type\": \"lldb\",\n          \"request\": \"launch\",\n          \"name\": \"Debug\",\n          \"program\": \"\\${workspaceFolder}/a.out\",\n          \"args\": [],\n          \"cwd\": \"\\${workspaceFolder}\"\n      }\n  ]\n}"
     ],
     "description": "Launch JSON for C"
+  },
+  "Snippet": {
+    "prefix": "launchbrowser",
+    "body": [
+      "\"serverReadyAction\": {\n  \"pattern\": \"https?://localhost:([0-9]+)\",\n  \"uriFormat\": \"http://localhost:%s\",\n  \"action\": \"openExternally\"\n}"
+    ],
+    "description": "Automatically launch browser"
   }
 }
