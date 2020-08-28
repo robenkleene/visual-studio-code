@@ -159,5 +159,6 @@
   ],
   "cSpell.spellCheckDelayMs": 500,
   "cSpell.ignoreRegExpList": ["/\\b[A-Z]+\\b/"],
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "markdown.extension.preview.autoShowPreviewToSide": true
 }
