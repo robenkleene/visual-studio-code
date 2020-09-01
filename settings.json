@@ -7,6 +7,14 @@
     "editor.selectionHighlightBackground": "#444",
     "editor.findMatchBackground": "#284667",
     "editor.findMatchHighlightBackground": "#444",
+    "list.activeSelectionBackground": "#333",
+    "list.activeSelectionForeground": "#aabbcc",
+    "list.focusBackground": "#444",
+    "list.focusForeground": "#aabbcc",
+    "list.inactiveFocusBackground": "#333333",
+    "list.inactiveFocusForeground": "#aabbcc",
+    "list.inactiveSelectionBackground": "#333333",
+    "list.inactiveSelectionForeground": "#aabbcc",
     "sideBar.foreground": "#888"
   },
   "editor.tokenColorCustomizations": {
