@@ -78,6 +78,26 @@
     "body": ["⌤↓↑←→⎋⌦⌫↩⇥⇤␣"],
     "description": "Other keyboard shortcut symbols"
   },
+  "#red": {
+    "prefix": "#red",
+    "body": ["#ff0000"],
+    "description": "Hex Red"
+  },
+  "#green": {
+    "prefix": "#green",
+    "body": ["#00ff00"],
+    "description": "Hex Green"
+  },
+  "#blue": {
+    "prefix": "#blue",
+    "body": ["#0000ff"],
+    "description": "Hex Blue"
+  },
+  "#yellow": {
+    "prefix": "#yellow",
+    "body": ["#ffff00"],
+    "description": "Hex Yellow"
+  },
   "kss": {
     "prefix": "kss",
     "body": ["⇧⌃⌥⌘"],
