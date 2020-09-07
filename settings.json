@@ -130,6 +130,10 @@
     // enforce while editing
     "MD047": false
   },
+  "files.associations": {
+    "*.omnifocusjs": "javascript",
+    "*.omnijs": "javascript"
+  },
   "prettier.config": {
     "overrides": [
       {
