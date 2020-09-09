@@ -34,4 +34,13 @@
     ],
     "description": "Automatically launch browser"
   },
+  "Launch JSON Terminal": {
+    "prefix": "launchterminal",
+    "body": [
+      "\"console\": \"integratedTerminal\""
+    ],
+    "description": "Automatically launch browser"
+  },
+
+
 }
