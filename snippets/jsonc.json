@@ -20,11 +20,18 @@
     ],
     "description": "Launch JSON for C"
   },
-  "Snippet": {
+  "Launch JSON Open Browser": {
     "prefix": "launchbrowser",
     "body": [
-      "\"serverReadyAction\": {\n  \"pattern\": \"https?://localhost:([0-9]+)\",\n  \"uriFormat\": \"http://localhost:%s\",\n  \"action\": \"openExternally\"\n}"
+      "\"serverReadyAction\": {\n  \"pattern\": \"https?://localhost:([0-9]+)\",\n  \"uriFormat\": \"http://localhost:%s\",\n  \"action\": \"debugWithChrome\"\n}"
     ],
     "description": "Automatically launch browser"
-  }
+  },
+  "Launch JSON Open Browser React": {
+    "prefix": "launchbrowserreact",
+    "body": [
+      "\"serverReadyAction\": {\n  \"pattern\": \"Starting the development server...\",\n  \"uriFormat\": \"http://localhost:3000\",\n  \"action\": \"debugWithChrome\"\n}"
+    ],
+    "description": "Automatically launch browser"
+  },
 }
