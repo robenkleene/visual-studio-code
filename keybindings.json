@@ -105,7 +105,7 @@
     },
     {
       "key": "cmd+k v",
-      "command": "-markdown.showPreviewToSide"
+      "command": "markdown.showPreviewToSide"
     },
     {
       "key": "cmd+b",
