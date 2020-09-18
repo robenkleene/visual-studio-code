@@ -3,5 +3,10 @@
     "prefix": "template",
     "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <title>${1:Title}</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"initial-scale=1.0, width=device-width\" />\n  </head>\n  <body>\n    $0\n  </body>\n</html>",
     "description": "Template"
+  },
+  "linkcss": {
+    "prefix": "linkcss",
+    "body": "<link rel=\"stylesheet\" type=\"text/css\" href=\"${0:css/style.css}\" />",
+    "description": "Link CSS"
   }
 }
