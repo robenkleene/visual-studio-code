@@ -49,7 +49,7 @@
   "workbench.colorTheme": "Material Theme High Contrast",
   "workbench.activityBar.visible": true,
   "C_Cpp.updateChannel": "Insiders",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "workbench.startupEditor": "newUntitledFile",
