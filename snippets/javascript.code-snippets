@@ -12,6 +12,12 @@
     "body": ["console.log(\"${1:result} = \" + $1);"],
     "description": "Log variable"
   },
+  "Log string variable": {
+    "scope": "javascript,typescript",
+    "prefix": "logs",
+    "body": ["console.log(\"${1:result} = \" + JSON.stringify($1));"],
+    "description": "Log string variable"
+  },
   "template": {
     "scope": "javascript,typescript",
     "prefix": "template",
