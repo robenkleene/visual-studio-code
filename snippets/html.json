@@ -8,5 +8,12 @@
     "prefix": "linkcss",
     "body": "<link rel=\"stylesheet\" type=\"text/css\" href=\"${0:css/style.css}\" />",
     "description": "Link CSS"
-  }
+  },
+  "style": {
+    "prefix": "style",
+    "body": "<style>\n  body {\n    color: blue;\n  }\n</style>",
+    "description": "Style tag"
+  }  
 }
+
+
