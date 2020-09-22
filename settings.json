@@ -165,6 +165,7 @@
     "Jupyter",
     "Kleene",
     "Mailchimp",
+    "Omni",
     "Photoshop",
     "Pinboard",
     "Repla",
@@ -186,6 +187,7 @@
     "popularities",
     "rasterization",
     "sidechain",
+    "todos",
     "uncheck"
   ],
   "cSpell.spellCheckDelayMs": 500,
