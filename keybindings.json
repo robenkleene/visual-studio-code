@@ -126,5 +126,10 @@
       "args": {
           "snippet": "`${TM_SELECTED_TEXT}`"
       }
+    },
+    {
+      "key": "shift+alt+enter",
+      "command": "markdown.extension.editing.toggleList",
+      "when": "editorTextFocus && editorLangId == 'markdown'"
     }
 ]
