@@ -145,6 +145,11 @@
       "command": "workbench.action.toggleMaximizedPanel"
     },
     {
+      "key": "ctrl+space",
+      "when": "!editorTextFocus",
+      "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
       "key": "alt+s m",
       "command": "workbench.action.toggleMaximizedPanel"
     }
