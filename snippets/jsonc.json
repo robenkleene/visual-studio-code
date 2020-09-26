@@ -41,8 +41,15 @@
     ],
     "description": "Automatically launch browser"
   },
-  "Launch Debug With Chrome": {
+  "Launch Chrome": {
     "prefix": "launchchrome",
+    "body": [
+      "\"env\": { \"BROWSER\": \"google chrome\" },"
+    ],
+    "description": "Launch Chrome"
+  },
+  "Launch Debug With Chrome": {
+    "prefix": "launchchromedebug",
     "body": [
       "\"action\": \"debugWithChrome\""
     ],
