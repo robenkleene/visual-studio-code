@@ -120,6 +120,14 @@
       "command": "workbench.action.newWindow"
     },
     {
+      "key": "alt+g l",
+      "command": "workbench.view.extension.gitlens"
+    },
+    {
+      "key": "alt+g alt+l",
+      "command": "workbench.view.extension.gitlens"
+    },
+    {
       "key": "`",
       "command": "editor.action.insertSnippet",
       "when": "editorHasSelection || editorHasMultipleSelections",
@@ -131,5 +139,13 @@
       "key": "shift+alt+enter",
       "command": "markdown.extension.editing.toggleList",
       "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+      "key": "alt+s alt+m",
+      "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+      "key": "alt+s m",
+      "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
