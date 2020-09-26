@@ -21,7 +21,7 @@
   },
   "cds": {
     "prefix": "cds",
-    "body": "cd \"\\$(dirname \"\\$0\")\"",
+    "body": "cd \"\\$(dirname \"\\$0\")\" || exit 1",
     "description": "cd to directory of script"
   },
   "noslash": {
