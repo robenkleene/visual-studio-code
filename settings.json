@@ -201,5 +201,6 @@
   "codespaces.accountProvider": "GitHub",
   "dotfiles.targetPath": "~/Developer/Dotfiles",
   "dotfiles.repository": "https://github.com/robenkleene/Dotfiles",
-  "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh"
+  "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh"
 }
