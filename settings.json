@@ -198,7 +198,7 @@
   "vsicons.dontShowNewVersionMessage": true,
   "cSpell.showStatus": false,
   "liveServer.settings.CustomBrowser": "chrome",
-  "codespaces.accountProvider": "Microsoft",
+  "codespaces.accountProvider": "GitHub",
   "dotfiles.targetPath": "~/Developer/Dotfiles",
   "dotfiles.repository": "https://github.com/robenkleene/Dotfiles",
   "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh"
