@@ -197,5 +197,6 @@
   "eslint.options": { "configFile": "/Users/robenkleene/.eslintrc" },
   "vsicons.dontShowNewVersionMessage": true,
   "cSpell.showStatus": false,
-  "liveServer.settings.CustomBrowser": "chrome"
+  "liveServer.settings.CustomBrowser": "chrome",
+  "codespaces.accountProvider": "GitHub"
 }
