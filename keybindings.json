@@ -152,6 +152,10 @@
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
+    "key": "cmd+0",
+    "command": "workbench.action.focusSideBar"
+  },  
+  {
     "key": "alt+s m",
     "when": "!editorTextFocus",
     "command": "workbench.action.toggleMaximizedPanel"
