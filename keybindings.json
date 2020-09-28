@@ -1,156 +1,159 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    { 
-        "key": "alt+b",
-        "command": "cursorWordStartLeft"
-    },
-    { 
-        "key": "alt+f",
-        "command": "cursorWordEndRight"
-    },
-    {
-        "key": "alt+d",
-        "command": "deleteWordRight"
-    },
-    {
-        "key": "alt+r",
-        "command": "revealFileInOS"
-    },
-    {
-        "key": "alt+l",
-        "command": "editor.action.openLink",
-        "when": "!editorHasSelection"
-    },
-    {
-        "key": "alt+t",
-        "command": "workbench.action.terminal.openNativeConsole"
-    },
-    {
-        "key": "ctrl+s",
-        "command": "actions.find"
-    },
-    {
-        "key": "ctrl+cmd+n",
-        "command": "explorer.newFile",
-        "when": "!inputFocus && filesExplorerFocus"
-    },
-    {
-        "key": "cmd+k cmd+0",
-        "command": "workbench.files.action.collapseExplorerFolders",
-        "when": "!inputFocus && filesExplorerFocus"
-    },
-    {
-        "key": "shift+cmd+n",
-        "command": "explorer.newFolder",
-        "when": "!inputFocus && filesExplorerFocus"
-    },
-    {
-        "key": "alt+o",
-        "command": "-C_Cpp.SwitchHeaderSource",
-        "when": "editorTextFocus && editorLangId == 'c'"
-    },
-    {
-        "key": "alt+o",
-        "command": "-C_Cpp.SwitchHeaderSource",
-        "when": "editorTextFocus && editorLangId == 'cpp'"
-    },
-    {
-      "key": "cmd+m",
-      "command": "-markdown.extension.editing.toggleMath",
-      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+c l",
-        "command": "outline.focus"
-    },
-    {
-        "key": "'",
-        "command": "editor.action.insertSnippet",
-        "when": "editorHasSelection || editorHasMultipleSelections",
-        "args": {
-            "snippet": "'${TM_SELECTED_TEXT}'"
-        }
-    },
-    {
-        "key": "shift+'",
-        "command": "editor.action.insertSnippet",
-        "when": "editorHasSelection || editorHasMultipleSelections",
-        "args": {
-            "snippet": "\"${TM_SELECTED_TEXT}\""
-        }
-    },
-    {
-      "key": "ctrl+alt+w",
-      "command": "editor.action.toggleWordWrap"
-    },
-    {
-      "key": "alt+x",
-      "command": "workbench.action.showCommands"
-    },
-    {
-      "key": "alt+[",
-      "command": "spaceBlockJumper.moveUp"
-    },
-    {
-      "key": "alt+]",
-      "command": "spaceBlockJumper.moveDown"
-    },
-    {
-      "key": "alt+shift+[",
-      "command": "spaceBlockJumper.selectUp"
-    },
-    {
-      "key": "alt+shift+]",
-      "command": "spaceBlockJumper.selectDown"
-    },
-    {
-      "key": "cmd+k v",
-      "command": "markdown.showPreviewToSide"
-    },
-    {
-      "key": "cmd+b",
-      "command": "-markdown.extension.editing.toggleBold"
-    },
-    {
-      "key": "cmd+k cmd+v",
-      "command": "markdown-preview-enhanced.openPreviewToTheSide"
-    },
-    {
-      "key": "cmd+alt+n",
-      "command": "workbench.action.newWindow"
-    },
-    {
-      "key": "alt+g l",
-      "command": "workbench.view.extension.gitlens"
-    },
-    {
-      "key": "alt+g alt+l",
-      "command": "workbench.view.extension.gitlens"
-    },
-    {
-      "key": "`",
-      "command": "editor.action.insertSnippet",
-      "when": "editorHasSelection || editorHasMultipleSelections",
-      "args": {
-          "snippet": "`${TM_SELECTED_TEXT}`"
-      }
-    },
-    {
-      "key": "shift+alt+enter",
-      "command": "markdown.extension.editing.toggleList",
-      "when": "editorTextFocus && editorLangId == 'markdown'"
-    },
-    {
-      "key": "alt+s alt+m",
-      "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-      "key": "shift+space",
-      "when": "!editorTextFocus",
-      "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-      "key": "alt+s m",
-      "command": "workbench.action.toggleMaximizedPanel"
+  {
+    "key": "alt+b",
+    "command": "cursorWordStartLeft"
+  },
+  {
+    "key": "alt+f",
+    "command": "cursorWordEndRight"
+  },
+  {
+    "key": "alt+d",
+    "command": "deleteWordRight"
+  },
+  {
+    "key": "alt+r",
+    "command": "revealFileInOS"
+  },
+  {
+    "key": "alt+l",
+    "command": "editor.action.openLink",
+    "when": "!editorHasSelection"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.openNativeConsole"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "actions.find"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "explorer.newFile",
+    "when": "!inputFocus && filesExplorerFocus"
+  },
+  {
+    "key": "cmd+k cmd+0",
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "when": "!inputFocus && filesExplorerFocus"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "explorer.newFolder",
+    "when": "!inputFocus && filesExplorerFocus"
+  },
+  {
+    "key": "alt+o",
+    "command": "-C_Cpp.SwitchHeaderSource",
+    "when": "editorTextFocus && editorLangId == 'c'"
+  },
+  {
+    "key": "alt+o",
+    "command": "-C_Cpp.SwitchHeaderSource",
+    "when": "editorTextFocus && editorLangId == 'cpp'"
+  },
+  {
+    "key": "cmd+m",
+    "command": "-markdown.extension.editing.toggleMath",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+s l",
+    "command": "outline.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "'",
+    "command": "editor.action.insertSnippet",
+    "when": "editorHasSelection || editorHasMultipleSelections",
+    "args": {
+      "snippet": "'${TM_SELECTED_TEXT}'"
     }
+  },
+  {
+    "key": "shift+'",
+    "command": "editor.action.insertSnippet",
+    "when": "editorHasSelection || editorHasMultipleSelections",
+    "args": {
+      "snippet": "\"${TM_SELECTED_TEXT}\""
+    }
+  },
+  {
+    "key": "ctrl+alt+w",
+    "command": "editor.action.toggleWordWrap"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "alt+[",
+    "command": "spaceBlockJumper.moveUp"
+  },
+  {
+    "key": "alt+]",
+    "command": "spaceBlockJumper.moveDown"
+  },
+  {
+    "key": "alt+shift+[",
+    "command": "spaceBlockJumper.selectUp"
+  },
+  {
+    "key": "alt+shift+]",
+    "command": "spaceBlockJumper.selectDown"
+  },
+  {
+    "key": "cmd+k v",
+    "command": "markdown.showPreviewToSide"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold"
+  },
+  {
+    "key": "cmd+k cmd+v",
+    "command": "markdown-preview-enhanced.openPreviewToTheSide"
+  },
+  {
+    "key": "cmd+alt+n",
+    "command": "workbench.action.newWindow"
+  },
+  {
+    "key": "alt+g l",
+    "command": "workbench.view.extension.gitlens"
+  },
+  {
+    "key": "alt+g alt+l",
+    "command": "workbench.view.extension.gitlens"
+  },
+  {
+    "key": "`",
+    "command": "editor.action.insertSnippet",
+    "when": "editorHasSelection || editorHasMultipleSelections",
+    "args": {
+      "snippet": "`${TM_SELECTED_TEXT}`"
+    }
+  },
+  {
+    "key": "shift+alt+enter",
+    "command": "markdown.extension.editing.toggleList",
+    "when": "editorTextFocus && editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+s alt+m",
+    "when": "!editorTextFocus",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "shift+space",
+    "when": "!editorTextFocus",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "alt+s m",
+    "when": "!editorTextFocus",
+    "command": "workbench.action.toggleMaximizedPanel"
+  }
 ]
