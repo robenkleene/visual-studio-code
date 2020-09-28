@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
 set -e
+cd "$(dirname "$0")" || exit 1
+source_path=$(pwd -P);
 
-force=true
+force=false
 while getopts ":dh" option; do
   case "$option" in
     d)
@@ -31,14 +33,12 @@ else
   echo
 fi
 
-destination_path="$HOME/.vscode/extensions/"
+destination_path="$HOME/Library/Application\ Support/Code\ -\ Insiders/User"
 if [ ! -d "$destination_path" ]; then
   echo "$destination_path does not exist" >&2
   exit 1
 fi
-extension_path="$(
-  cd "$(dirname "$0")" >/dev/null 2>&1
-  pwd -P
-)"
-rsync -a --delete${dry_run} --verbose --exclude=install.sh --exclude=.gitignore \
-  --exclude=.git "$extension_path" "$destination_path"
+
+echo "dry_run = $dry_run"
+# git ls-files | rsync -a --verbose${dry_run} --files-from=- --exclude=.gitignore --exclude=sync.sh \
+#   "$source_path" "$destination_path"
