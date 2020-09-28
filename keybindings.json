@@ -152,6 +152,7 @@
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
+    // Codespaces doesn't have this keyboard shortcut by default
     "key": "cmd+0",
     "command": "workbench.action.focusSideBar"
   },  
