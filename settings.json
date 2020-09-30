@@ -206,5 +206,6 @@
   "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh",
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish"
 }
