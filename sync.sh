@@ -5,10 +5,10 @@ cd "$(dirname "$0")" || exit 1
 source_path=$(pwd -P);
 
 force=false
-while getopts ":dh" option; do
+while getopts ":fh" option; do
   case "$option" in
-    d)
-      force=false
+    f)
+      force=true
       ;;
     h)
       echo "Usage: ./install.sh [-hf]"
@@ -33,12 +33,11 @@ else
   echo
 fi
 
-destination_path="$HOME/Library/Application\ Support/Code\ -\ Insiders/User"
+destination_path="$HOME/Library/Application Support/Code - Insiders/User"
 if [ ! -d "$destination_path" ]; then
   echo "$destination_path does not exist" >&2
   exit 1
 fi
 
-echo "dry_run = $dry_run"
-# git ls-files | rsync -a --verbose${dry_run} --files-from=- --exclude=.gitignore --exclude=sync.sh \
-#   "$source_path" "$destination_path"
+git ls-files | rsync -a --verbose${dry_run} --files-from=- --exclude=.gitignore --exclude=sync.sh \
+  "$source_path" "$destination_path"
