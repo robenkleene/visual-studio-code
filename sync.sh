@@ -37,6 +37,8 @@ if [[ $source_path = "$HOME/Library/Application Support/Code - Insiders/User" ]]
   destination_path="$HOME/Library/Application Support/Code/User"
 elif [[ $source_path = "$HOME/Library/Application Support/Code/User" ]]; then
   destination_path="$HOME/Library/Application Support/Code - Insiders/User"
+else
+  echo "Invalid path $source_path" >&2
 fi
 
 if [ ! -d "$destination_path" ]; then
