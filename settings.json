@@ -92,7 +92,6 @@
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
   "breadcrumbs.enabled": true,
   "window.zoomLevel": 0,
-  "editor.occurrencesHighlight": false,
   "editor.showFoldingControls": "always",
   "window.openFilesInNewWindow": "default",
   "explorer.compactFolders": false,
@@ -210,5 +209,6 @@
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "terminal.integrated.shell.osx": "/usr/local/bin/fish"
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "editor.occurrencesHighlight": false
 }
