@@ -33,7 +33,12 @@ else
   echo
 fi
 
-destination_path="$HOME/Library/Application Support/Code - Insiders/User"
+if [[ $source_path = "$HOME/Library/Application Support/Code - Insiders/User" ]]; then
+  destination_path="$HOME/Library/Application Support/Code/User"
+elif [[ $source_path = "$HOME/Library/Application Support/Code/User" ]]; then
+  destination_path="$HOME/Library/Application Support/Code - Insiders/User"
+fi
+
 if [ ! -d "$destination_path" ]; then
   echo "$destination_path does not exist" >&2
   exit 1
