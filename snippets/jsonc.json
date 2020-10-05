@@ -54,5 +54,15 @@
       "\"action\": \"debugWithChrome\""
     ],
     "description": "Debug with Chrome"
+  },
+  "Launch Template HTML": {
+    "prefix": "launch-template-html",
+    "body": [
+      "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n    {\n      \"name\": \"Live Server\",\n      \"type\": \"node\",\n      \"request\": \"launch\",\n      \"runtimeExecutable\": \"live-server\"\n    },\n    {\n      \"name\": \"Debug With Chrome\",\n      \"type\": \"node\",\n      \"request\": \"launch\",\n      \"runtimeExecutable\": \"live-server\",\n      \"args\": [ \"--no-browser\"],\n      \"serverReadyAction\": {\n        \"pattern\": \"https?://127.0.0.1:([0-9]+)\",\n        \"action\": \"debugWithChrome\",\n        \"uriFormat\": \"http://localhost:%s\"\n      }\n    }\n  ]\n}"
+    ],
+    "description": "Launch Template HTML"
   }
 }
+
+
+
