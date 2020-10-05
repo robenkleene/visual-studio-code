@@ -210,5 +210,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-  "editor.occurrencesHighlight": false
+  "editor.occurrencesHighlight": false,
+  "debug.openDebug": "neverOpen"
 }
