@@ -160,5 +160,10 @@
     "key": "alt+s m",
     "when": "!editorTextFocus",
     "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "alt+.",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   }
 ]
