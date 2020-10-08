@@ -162,6 +162,11 @@
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
+    "key": "alt+s .",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
     "key": "alt+.",
     "command": "editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
