@@ -195,7 +195,10 @@
     "robenkleene",
     "sidechain",
     "todos",
-    "uncheck"
+    "uncheck",
+    "xoff",
+    "yoff",
+    "zoff"
   ],
   "cSpell.spellCheckDelayMs": 500,
   "cSpell.ignoreRegExpList": ["/\\b[A-Z]+\\b/"],
