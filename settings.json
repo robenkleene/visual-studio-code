@@ -155,6 +155,7 @@
   "markdown.extension.list.indentationSize": "inherit",
   "cSpell.userWords": [
     "Airtable",
+    "AppleScript",
     "Bootable",
     "Brewfile",
     "Bézier",
@@ -178,7 +179,6 @@
     "Ultrabeat",
     "artboard",
     "codespace",
-    "AppleScript",
     "customizability",
     "denoise",
     "denoiser",
@@ -195,6 +195,7 @@
     "popularities",
     "rasterization",
     "robenkleene",
+    "scpt",
     "sidechain",
     "todos",
     "uncheck",
