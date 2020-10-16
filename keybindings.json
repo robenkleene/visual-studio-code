@@ -121,14 +121,6 @@
     "command": "workbench.action.newWindow"
   },
   {
-    "key": "alt+g l",
-    "command": "workbench.view.extension.gitlens"
-  },
-  {
-    "key": "alt+g alt+l",
-    "command": "workbench.view.extension.gitlens"
-  },
-  {
     "key": "`",
     "command": "editor.action.insertSnippet",
     "when": "editorHasSelection || editorHasMultipleSelections",
