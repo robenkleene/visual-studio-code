@@ -118,6 +118,9 @@
     "MD024": false,
     // Allow punctuation at the end of headings (e.g., `?`)
     "MD026": false,
+    // Don't require blank lines around fenced code blocks, hierarchical code
+    // blocks in lists look better without blank lines around them.
+    "MD031": false,
     // Disable forcing blank lines around lists, this is just annoying when
     // creating a list
     "MD032": false,
