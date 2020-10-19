@@ -64,14 +64,14 @@
     "description": "Arrows"
   },
   "ent": {
-    "prefix": "ent",
+    "prefix": ["ent", "ret"],
     "body": "↩",
-    "description": "Enter Key Symbol"
+    "description": "Enter"
   },
   "spc": {
     "prefix": "spc",
     "body": "␣",
-    "description": "Space Key Symbol"
+    "description": "Space"
   },
   "kso": {
     "prefix": "kso",
