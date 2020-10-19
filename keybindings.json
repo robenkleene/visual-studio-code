@@ -147,7 +147,7 @@
     // Codespaces doesn't have this keyboard shortcut by default
     "key": "cmd+0",
     "command": "workbench.action.focusSideBar"
-  },  
+  },
   {
     "key": "alt+s m",
     "when": "!editorTextFocus",
@@ -162,5 +162,15 @@
     "key": "alt+.",
     "command": "editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+n",
+    "command": "search.action.focusNextSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "alt+p",
+    "command": "search.action.focusPreviousSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
   }
 ]
