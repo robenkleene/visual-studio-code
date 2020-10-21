@@ -2,32 +2,43 @@
 [
   {
     "key": "alt+b",
-    "command": "cursorWordStartLeft"
+    "command": "cursorWordStartLeft",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+f",
-    "command": "cursorWordEndRight"
+    "command": "cursorWordEndRight",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+d",
-    "command": "deleteWordRight"
+    "command": "deleteWordRight",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+r",
-    "command": "revealFileInOS"
+    "command": "revealFileInOS",
+    "when": "!terminalFocus"
   },
   {
     "key": "alt+l",
     "command": "editor.action.openLink",
-    "when": "!editorHasSelection"
+    "when": "editorTextFocus && !editorHasSelection && editorLangId == 'markdown'"
+  },
+  {
+    "key": "alt+l",
+    "command": "extension.openFile",
+    "when": "editorTextFocus && !editorHasSelection && editorLangId != 'markdown'"
   },
   {
     "key": "alt+t",
-    "command": "workbench.action.terminal.openNativeConsole"
+    "command": "workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
   },
   {
     "key": "ctrl+s",
-    "command": "actions.find"
+    "command": "actions.find",
+    "when": "!terminalFocus"
   },
   {
     "key": "ctrl+cmd+n",
@@ -82,31 +93,38 @@
   },
   {
     "key": "ctrl+alt+w",
-    "command": "editor.action.toggleWordWrap"
+    "command": "editor.action.toggleWordWrap",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+x",
-    "command": "workbench.action.showCommands"
+    "command": "workbench.action.showCommands",
+    "when": "!terminalFocus"
   },
   {
     "key": "alt+[",
-    "command": "spaceBlockJumper.moveUp"
+    "command": "spaceBlockJumper.moveUp",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+]",
-    "command": "spaceBlockJumper.moveDown"
+    "command": "spaceBlockJumper.moveDown",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+shift+[",
-    "command": "spaceBlockJumper.selectUp"
+    "command": "spaceBlockJumper.selectUp",
+    "when": "editorTextFocus"
   },
   {
     "key": "alt+shift+]",
-    "command": "spaceBlockJumper.selectDown"
+    "command": "spaceBlockJumper.selectDown",
+    "when": "editorTextFocus"
   },
   {
     "key": "cmd+k v",
-    "command": "markdown.showPreviewToSide"
+    "command": "markdown.showPreviewToSide",
+    "when": "editorTextFocus"
   },
   {
     "key": "cmd+b",
