@@ -172,5 +172,13 @@
     "key": "alt+p",
     "command": "search.action.focusPreviousSearchResult",
     "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "alt+c",
+    "command": "-markdown.extension.checkTaskList"
+  },
+  {
+    "key": "alt+c",
+    "command": "-gitlens.showQuickCommitFileDetails"
   }
 ]
