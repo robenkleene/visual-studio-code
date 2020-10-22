@@ -27,7 +27,7 @@
   },
   {
     "key": "alt+l",
-    "command": "extension.openFile",
+    "command": "robenkleene.openFile",
     "when": "editorTextFocus && !editorHasSelection && editorLangId != 'markdown'"
   },
   {
