@@ -49,6 +49,11 @@
     "body": "if ${1:true}; then\n  ${0:echo \"true\"}\nfi",
     "description": "If statement"
   },
+  "ifuname": {
+    "prefix": "ifuname",
+    "body": "if [[ \"$(uname)\" = \"Darwin\" ]]; then\n	echo \"Darwin\"\nelif [[ \"$(uname)\" = \"Linux\" ]]; then\n	echo \"Linux\"\nfi",
+    "description": "If platform"
+  },
   "ex": {
     "prefix": "ex",
     "body": "[[ ${0:-n \"\\$1\"} ]]",
