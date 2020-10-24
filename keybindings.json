@@ -23,12 +23,12 @@
   {
     "key": "alt+l",
     "command": "editor.action.openLink",
-    "when": "editorTextFocus && !editorHasSelection && editorLangId == 'markdown'"
+    "when": "!editorHasSelection && editorTextFocus && inSearchEditor || editorLangId == 'markdown'" 
   },
   {
     "key": "alt+l",
     "command": "robenkleene.openFile",
-    "when": "editorTextFocus && !editorHasSelection && editorLangId != 'markdown'"
+    "when": "editorTextFocus && !editorHasSelection && editorLangId != 'markdown' && !inSearchEditor"
   },
   {
     "key": "alt+t",
