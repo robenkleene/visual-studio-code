@@ -196,6 +196,10 @@
     "command": "-markdown.extension.checkTaskList"
   },
   {
+    "key": "alt+e",
+    "command": "workbench.action.quickOpen"
+  },
+  {
     "key": "alt+c",
     "command": "-gitlens.showQuickCommitFileDetails"
   }
