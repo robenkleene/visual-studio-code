@@ -152,11 +152,6 @@
     "when": "editorTextFocus && editorLangId == 'markdown'"
   },
   {
-    "key": "alt+s alt+m",
-    "when": "!editorTextFocus",
-    "command": "workbench.action.toggleMaximizedPanel"
-  },
-  {
     "key": "shift+space",
     "when": "!editorTextFocus",
     "command": "workbench.action.toggleMaximizedPanel"
@@ -168,9 +163,8 @@
   },
   {
     "key": "alt+s m",
-    "when": "!editorTextFocus",
-    "command": "workbench.action.toggleMaximizedPanel"
-  },
+    "command": "opensshremotes.openEmptyWindowInCurrentWindow"
+  }, 
   {
     "key": "alt+s .",
     "command": "editor.action.rename",
