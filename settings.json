@@ -231,5 +231,6 @@
   "debug.openDebug": "neverOpen",
   // Disable suggested actions because suggesting to refactor to ES6 modules
   // keeps sending me down pointless rabbit holes.
-  "javascript.suggestionActions.enabled": false
+  "javascript.suggestionActions.enabled": false,
+  "testExplorer.codeLens": false
 }
