@@ -23,7 +23,7 @@
   {
     "key": "alt+l",
     "command": "editor.action.openLink",
-    "when": "!editorHasSelection && editorTextFocus && inSearchEditor || editorLangId == 'markdown'" 
+    "when": "!editorHasSelection && editorTextFocus && inSearchEditor || editorLangId == 'markdown'"
   },
   {
     "key": "alt+l",
@@ -164,7 +164,7 @@
   {
     "key": "alt+s m",
     "command": "opensshremotes.openEmptyWindowInCurrentWindow"
-  }, 
+  },
   {
     "key": "alt+s .",
     "command": "editor.action.rename",
@@ -196,5 +196,10 @@
   {
     "key": "alt+c",
     "command": "-gitlens.showQuickCommitFileDetails"
+  },
+  {
+    "key": "alt+s t",
+    "command": "test-explorer.run-test-at-cursor",
+    "when": "editorLangId != 'markdown'"
   }
 ]
