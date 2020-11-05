@@ -98,8 +98,7 @@
   },
   {
     "key": "alt+x",
-    "command": "workbench.action.showCommands",
-    "when": "!terminalFocus"
+    "command": "workbench.action.showCommands"
   },
   {
     "key": "alt+[",
@@ -191,8 +190,7 @@
   },
   {
     "key": "alt+e",
-    "command": "workbench.action.quickOpen",
-    "when": "!terminalFocus"
+    "command": "workbench.action.quickOpen"
   },
   {
     "key": "alt+c",
