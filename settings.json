@@ -151,6 +151,7 @@
     "adverb": false,
     "tooWordy": false,
     "passive": false,
+    "thereIs": false,
     "weasel": false
   },
   "javascript.updateImportsOnFileMove.enabled": "never",
