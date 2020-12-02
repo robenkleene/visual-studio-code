@@ -200,5 +200,10 @@
     "key": "alt+s t",
     "command": "test-explorer.run-test-at-cursor",
     "when": "editorLangId != 'markdown'"
+  },
+  {
+    "key": "cmd+k cmd+0",
+    "command": "search.action.collapseSearchResults",
+    "when": "sideBarFocus && activeViewlet == 'workbench.view.search'"
   }
 ]
