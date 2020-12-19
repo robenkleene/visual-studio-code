@@ -1,7 +1,7 @@
 {
   "template": {
     "prefix": "template",
-    "body": "#!/usr/bin/swift\n\nimport Foundation\n\n$0",
+    "body": "#!/usr/bin/swift\n\n$0",
     "description": "Template"
   },
   "templatex": {
