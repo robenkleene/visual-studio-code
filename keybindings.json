@@ -205,5 +205,9 @@
     "key": "cmd+k cmd+0",
     "command": "search.action.collapseSearchResults",
     "when": "sideBarFocus && activeViewlet == 'workbench.view.search'"
+  },
+  {
+    "key": "alt+s r",
+    "command": "workbench.action.terminal.runActiveFile"
   }
 ]
