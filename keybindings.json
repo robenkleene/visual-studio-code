@@ -209,5 +209,9 @@
   {
     "key": "alt+s r",
     "command": "workbench.action.terminal.runActiveFile"
+  },
+  {
+    "key": "alt+i",
+    "command": "workbench.action.gotoSymbol"
   }
 ]
