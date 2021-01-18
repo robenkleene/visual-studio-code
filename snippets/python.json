@@ -6,7 +6,7 @@
   },
   "printv": {
     "prefix": "printv",
-    "body": "print(\"${1:Variable} = \", $1)",
+    "body": "print(\"${1:Variable} =\", $1)",
     "description": "Print a variable"
   }
 }
