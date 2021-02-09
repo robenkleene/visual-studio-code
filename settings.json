@@ -247,5 +247,9 @@
   // Disable suggested actions because suggesting to refactor to ES6 modules
   // keeps sending me down pointless rabbit holes.
   "javascript.suggestionActions.enabled": false,
-  "testExplorer.codeLens": false
+  "testExplorer.codeLens": false,
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.linting.pylintUseMinimalCheckers": false
 }
