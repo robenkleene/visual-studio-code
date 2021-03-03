@@ -213,5 +213,41 @@
   {
     "key": "alt+i",
     "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "alt+cmd+s",
+    "command": "-saveAll"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "robenkleene.closeOtherEditors"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "-clangd.switchheadersource"
+  },
+  {
+    "key": "alt+cmd+.",
+    "command": "-editor.action.autoFix"
+  },
+  {
+    "key": "shift+alt+cmd+.",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+cmd+.",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+cmd+v",
+    "command": "workbench.action.splitEditor"
   }
 ]
