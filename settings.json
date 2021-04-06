@@ -258,5 +258,6 @@
       "filenamePattern": "*.ipynb"
     }
   ],
-  "omnisharp.useGlobalMono": "always"
+  "omnisharp.useGlobalMono": "always",
+  "csharp.referencesCodeLens.enabled": false
 }
