@@ -259,5 +259,6 @@
     }
   ],
   "omnisharp.useGlobalMono": "always",
-  "csharp.referencesCodeLens.enabled": false
+  "csharp.referencesCodeLens.enabled": false,
+  "[plaintext]": { "editor.quickSuggestions": false }
 }
