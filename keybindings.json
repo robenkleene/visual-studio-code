@@ -241,5 +241,13 @@
   {
     "key": "alt+cmd+v",
     "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "workbench.action.moveEditorToBelowGroup"
   }
 ]
