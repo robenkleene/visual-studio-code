@@ -190,7 +190,8 @@
   },
   {
     "key": "alt+e",
-    "command": "workbench.action.quickOpen"
+    "command": "workbench.action.quickOpen",
+    "when": "!terminalFocus"
   },
   {
     "key": "alt+c",
