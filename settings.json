@@ -240,7 +240,7 @@
   "dotfiles.targetPath": "~/Developer/Dotfiles",
   "dotfiles.repository": "https://github.com/robenkleene/Dotfiles",
   "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh",
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.shell.linux": "/home/linuxbrew/.linuxbrew/bin/fish",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
