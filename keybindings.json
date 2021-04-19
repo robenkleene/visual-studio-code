@@ -98,7 +98,8 @@
   },
   {
     "key": "alt+x",
-    "command": "workbench.action.showCommands"
+    "command": "workbench.action.showCommands",
+    "when": "!terminalFocus"
   },
   {
     "key": "alt+[",
