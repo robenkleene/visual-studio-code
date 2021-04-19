@@ -249,5 +249,15 @@
   {
     "key": "ctrl+cmd+down",
     "command": "workbench.action.moveEditorToBelowGroup"
-  }
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  }  
 ]
