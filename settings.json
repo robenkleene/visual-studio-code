@@ -240,10 +240,9 @@
   "dotfiles.targetPath": "~/Developer/Dotfiles",
   "dotfiles.repository": "https://github.com/robenkleene/Dotfiles",
   "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh",
-  "terminal.integrated.shell.linux": "/home/linuxbrew/.linuxbrew/bin/fish",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "debug.openDebug": "neverOpen",
   // Disable suggested actions because suggesting to refactor to ES6 modules
   // keeps sending me down pointless rabbit holes.
