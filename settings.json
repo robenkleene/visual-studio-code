@@ -260,5 +260,8 @@
   ],
   "omnisharp.useGlobalMono": "always",
   "csharp.referencesCodeLens.enabled": false,
-  "[plaintext]": { "editor.quickSuggestions": false }
+  "[plaintext]": {
+    "editor.quickSuggestions": false
+  },
+  "css.validate": false
 }
