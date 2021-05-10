@@ -263,6 +263,7 @@
   "[plaintext]": {
     "editor.quickSuggestions": false
   },
+  "workbench.editor.untitled.hint": "hidden",
   "css.validate": false,
-  "workbench.editor.untitled.hint": "hidden"
+  "scss.validate": false
 }
