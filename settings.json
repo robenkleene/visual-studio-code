@@ -242,6 +242,7 @@
   "dotfiles.installCommand": "~/Developer/Dotfiles/install.sh",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "debug.openDebug": "neverOpen",
   // Disable suggested actions because suggesting to refactor to ES6 modules
