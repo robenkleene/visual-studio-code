@@ -50,7 +50,7 @@
   "workbench.activityBar.visible": true,
   "C_Cpp.updateChannel": "Insiders",
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
