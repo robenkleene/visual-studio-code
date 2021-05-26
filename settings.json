@@ -266,5 +266,6 @@
   },
   "workbench.editor.untitled.hint": "hidden",
   "css.validate": false,
-  "scss.validate": false
+  "scss.validate": false,
+  "terminal.integrated.tabs.enabled": true
 }

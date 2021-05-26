@@ -111,7 +111,7 @@
   },
   "testz": {
     "prefix": "testz",
-    "body": "-z \"$${1:1}\"",
+    "body": "-z \"$${1:{1-}\"",
     "description": "True if empty variable"
   },
   "testn": {
