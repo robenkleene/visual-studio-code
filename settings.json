@@ -253,12 +253,9 @@
   "python.linting.enabled": true,
   "python.pythonPath": "/usr/local/bin/python3",
   "python.linting.pylintUseMinimalCheckers": false,
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "omnisharp.useGlobalMono": "always",
   "csharp.referencesCodeLens.enabled": false,
   "[plaintext]": {
@@ -267,5 +264,6 @@
   "workbench.editor.untitled.hint": "hidden",
   "css.validate": false,
   "scss.validate": false,
-  "terminal.integrated.tabs.enabled": true
+  "terminal.integrated.tabs.enabled": true,
+  "security.workspace.trust.enabled": false
 }
