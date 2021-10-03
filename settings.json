@@ -267,5 +267,7 @@
   "terminal.integrated.tabs.enabled": true,
   "security.workspace.trust.enabled": false,
   "vscode-edge-devtools.mirrorEdits": true,
+  // Disable restoring windows, hopefully this helps with the terminal being in
+  // a weird position when re-opening after an SSH session
   "window.restoreWindows": "none"
 }
