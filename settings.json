@@ -266,5 +266,6 @@
   "scss.validate": false,
   "terminal.integrated.tabs.enabled": true,
   "security.workspace.trust.enabled": false,
-  "vscode-edge-devtools.mirrorEdits": true
+  "vscode-edge-devtools.mirrorEdits": true,
+  "window.restoreWindows": "none"
 }
