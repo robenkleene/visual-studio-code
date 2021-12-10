@@ -124,6 +124,11 @@
     "body": "\"$${1:1}\" = \"${2:string}\"",
     "description": "True if variable matches string"
   },
+  "testx": {
+    "prefix": "testx",
+    "body": "-x \"$(command -v ${1:ls})\"",
+    "description": "True if command is executable"
+  },
   "testmac": {
     "prefix": "testmac",
     "body": "\"$(uname)\" = \"Darwin\"",
