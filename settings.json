@@ -269,5 +269,7 @@
   "vscode-edge-devtools.mirrorEdits": true,
   // Disable restoring windows, hopefully this helps with the terminal being in
   // a weird position when re-opening after an SSH session
-  "window.restoreWindows": "none"
+  "window.restoreWindows": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
