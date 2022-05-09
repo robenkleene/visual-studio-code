@@ -57,7 +57,6 @@
   "explorer.confirmDelete": false,
   "search.useGlobalIgnoreFiles": true,
   "debug.onTaskErrors": "showErrors",
-  "editor.renderIndentGuides": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -271,5 +270,6 @@
   // a weird position when re-opening after an SSH session
   "window.restoreWindows": "none",
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": false
 }
