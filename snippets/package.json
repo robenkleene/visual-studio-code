@@ -1,0 +1,22 @@
+{
+  "name": "robenkleene-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "all",
+        "path": "global.json"
+      },
+      {
+        "language": "markdown",
+        "path": "markdown.json"
+      },
+      {
+        "language": "c",
+        "path": "c.json"
+      }
+    ]
+  }
+}
