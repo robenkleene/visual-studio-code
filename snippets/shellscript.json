@@ -222,12 +222,5 @@
     "prefix": "guardv",
     "body": "if [[ -z \"$${1:1}\" ]]; then\n  echo \"Error: $1 is empty\" >&2\n  exit 1\nfi",
     "description": "Exit on empty variable"
-  },
-  "Guard one argument": {
-    "prefix": "guardarg",
-    "body": [
-      "if [[ \"$#\" -ne 1 ]]; then\n    echo \"Wrong number of arguments\" >&2\n    exit 1\nfi
-    ],
-    "description": "Guard one argument"
   }
 }
