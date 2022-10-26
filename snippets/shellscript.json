@@ -10,7 +10,7 @@
     "description": "Echo variable"
   },
   "echoa": {
-    "prefix": "echoa",
+    "prefix": "echova",
     "body": "echo \"${1:args}[@] = \\${$1[@]}\"",
     "description": "Echo array variable"
   },
