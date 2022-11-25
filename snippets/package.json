@@ -50,6 +50,10 @@
         "path": "objective-c.json"
       },
       {
+        "language": "rust",
+        "path": "rust.json"
+      },
+      {
         "language": "perl",
         "path": "perl.json"
       },
